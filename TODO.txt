@@ -1,0 +1,9 @@
+  ------------HARDWARE--------------------
+*move over to esp32 platform?
+  ------------SOFTWARE--------------------
+*get clipboard integration working with GUI
+*implement fee function
+*improve GUI
+*package code as executable for distribution. pyinstaller? http://www.pyinstaller.org/
+*get software working on the lightning network
+*add other cryptocurrencies

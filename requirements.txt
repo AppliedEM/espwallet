@@ -1,0 +1,7 @@
+requests
+pyserial
+ecdsa
+python3
+pyinstaller
+
+Depending on which gui either TKinter or pyQt5

@@ -1,0 +1,4 @@
+DEVELOPMENT REQUIREMENTS
+1.)	install python3
+2.)	install python3-tk
+
