@@ -1,5 +1,5 @@
-# bitboard
-An open-source arduino-based bitcoin hardware wallet
+# espwallet
+An open-source esp-12 arduino-based bitcoin hardware wallet
 
 This set of programs is a tool designed to allow anyone with a few extra units of dumb paper money store all their valuable bitcoin in a secure location. It consists of two parts:
 
@@ -8,9 +8,10 @@ This set of programs is a tool designed to allow anyone with a few extra units o
 
 FLASHING THE BOARD:
 1.) Install python 3
+  a.) Download and open the installer. Navigate to advanced options. Check the box that says "add python to environment variable."
   a.) Optional: Make sure the "python" command executes python3 and not python2
 2.) Connect the esp-12 D1 chip to your computer via usb. Make sure there are no other USB-Serial converters connected to your computer.
-3.) In the ./barebones/esptool/ directory there will be an "upload.py" program. Run it and follow the directions.
+3.) In the ./barebones/esptool/ directory there will be an "upload.py" program. Double-click it or execute it with the "python" command and follow the directions.
 
 INSTALLATION:
 WINDOWS
@@ -31,3 +32,5 @@ This is a very basic program. As such, there are only three functions.
 When conducting a transaction, the output will be displayed at the bottom of the screen. If it begins with "Success: True", your transaction was successful. If not, you might need to try again, and maybe consider increasing the fee.
 
 The checkbox to the side of the balance switches the client to testnet mode, and is primarily for development purposes.
+
+*Note: This wallet might not work with some bitcoin services. Coinbase is a notable example of this. As a general rul of thumb, if the transactions occur on the actual bitcoin blockchain, they should be recognized by the wallet. Coinbase sometimes does not conduct transactions on the blockchain, and will therefore sometimes not work. Conversely, Mycelium is a wallet known to work with this wallet.
